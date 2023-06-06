@@ -11,3 +11,8 @@ testando de novo
 
 
 fazendo alterações de testes
+
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
